@@ -1,0 +1,54 @@
+
+body {
+    background-image: url("Untitled52_20211228001104.png");
+    background-size: 100%;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+ }
+ 
+ h1{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: white;
+     text-align: center;
+     position: fixed;
+     margin-right: 40%;
+ }
+ 
+ .box{
+     height: 160px;
+     width: 100%;
+     border: 5px solid rgba(255, 255, 255, 0);
+     position: relative;
+    }
+    
+    .box3, .box1 {
+        height: 100px;
+        width: 195px;
+    }
+    .box1{
+        background-color: rgba(255, 255, 0, 0);
+ 
+        position: fixed;
+    }
+    .box3{
+        background-color: rgba(153, 205, 50, 0);
+        position: fixed;
+        left: -5px;
+        top: -5px;
+    }
+  .row {
+     animation-name: ek;
+     animation-duration: 2s;
+   position: relative;
+   animation-direction: alternate;
+ }
+ 
+ @keyframes ek {
+     0%{
+         left: 100px;
+     }
+     100%{
+         left: 0px;
+     }
+ }
+ 
